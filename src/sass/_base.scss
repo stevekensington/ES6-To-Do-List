@@ -1,0 +1,48 @@
+body, html{
+  height: 100%;
+  margin: 0;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+  background-color:#15181c;
+}
+h1{
+  font-size:28px;
+  font-weight: 600;
+  text-transform:uppercase;
+}
+h2{
+  font-size:20px;
+  font-weight: 600;
+  text-transform:uppercase;
+}
+h3{
+  font-size:16px;
+  font-weight: 600;
+}
+h4{
+  font-size:14px;
+  font-weight: 700;
+}
+p{
+}
+a{
+  font-weight: 500;
+  color: $main-theme-color;
+  text-decoration: none;
+}
+a:hover{
+  color: $secondary-theme-color;
+  text-decoration: none;
+}
+label{
+  display: none;
+}
+.right-align{
+  float: right;
+}
+.clear{
+  clear: both;
+}
